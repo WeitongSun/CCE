@@ -5,7 +5,7 @@ int value;
 int freq;
 
 void setup() {
-  // put your setup code here, to run once:
+  
   CircuitPlayground.begin();
   Serial.begin(9600);
 
@@ -20,8 +20,4 @@ void loop() {
   
   freq=map(value,0,1023,100,1000);
   CircuitPlayground.playTone(freq,1000);
-
-
-
-
 }

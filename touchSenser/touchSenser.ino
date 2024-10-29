@@ -1,8 +1,9 @@
 #include <Adafruit_CircuitPlayground.h>
-
+//Code for touch senser on CPX
+//Made by Weitong
 int value;
 int freq;
-bool buttonPressed;
+
 void setup() {
   // put your setup code here, to run once:
   CircuitPlayground.begin();

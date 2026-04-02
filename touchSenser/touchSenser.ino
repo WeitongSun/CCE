@@ -12,7 +12,7 @@ void setup() {
 }
 
 void loop() {
-  buttonPressed = CircuitPlayground.leftButton();
+  //buttonPressed = CircuitPlayground.leftButton();
   // put your main code here, to run repeatedly:
   value = analogRead(A3);
   //delay(1000);
